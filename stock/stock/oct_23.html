@@ -1,0 +1,3434 @@
+<!doctype html>
+<html lang="en-us" class="inner no-js" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+<!-- includes\2-column.master -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+<meta name="viewport" content="width=device-width" />
+
+<!-- START  page level head content -->
+<script type="text/javascript">
+    myPage = 'earnings';
+    sectionId = 'liMarket'; //section tab
+    breadCrumbId = 'maIndexes';//page
+    is_dartSite = "mktsnews";
+    is_dartZone = "earningscalendar";
+    propVar = "Earnings Calendar";
+    propVar15 = "Market Activity";
+</script>
+
+<title>Earnings Calendar for October 23, 2015 - NASDAQ.com</title>
+<!--earnings/earnings-calendar.aspx-->
+<meta name="description" content="The Earnings Calendar allows you to track companies who are earnings reported on Oct 23, 2015" />
+<link rel="canonical" href="http://www.nasdaq.com/earnings/earnings-calendar.aspx?date=2015-Oct-23" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="http://m.nasdaq.com/earnings/earnings-calendar.aspx?date=2015-Oct-23" />
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+
+<meta property="og:title" content="Earnings Calendar for October 23, 2015" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="NASDAQ.com" />
+<meta property="og:url" content="http://www.nasdaq.com/earnings/earnings-calendar.aspx?date=2015-Oct-23" />
+<meta property="og:image" content="http://www.nasdaq.com/images/Q-logo.jpg" />
+
+<!-- END page level head content -->
+
+
+<!--********************************* BEGIN includes/global-references.inc **************************-->
+<!-- global stylesheets -->
+<link rel="stylesheet" type="text/css" href="http://www.nasdaq.com/includes/global.min-10222015v1.css" />
+<!--[if lt IE 9]>
+<script src="http://www.nasdaq.com/includes/html5shiv-printshiv.js"></script>
+<link rel="stylesheet" type="text/css" href="http://www.nasdaq.com/includes/global-ie8.css?s" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="http://www.nasdaq.com/includes/global-ie7-5222015v1.css" />
+<![endif]-->
+
+<!-- favicon and shortcut icons -->
+<link rel="apple-touch-icon" href="http://www.nasdaq.com/images/Q_apple.png"/>
+<link rel="shortcut icon" href="http://www.nasdaq.com/images/qfav.ico" type="image/ico" />
+<link rel="icon" href="http://www.nasdaq.com/images/qfav.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="http://www.nasdaq.com/images/qfav.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="http://cdn.ideamelt.com/1.3/css/ideamelt.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<!-- scripts -->
+<script src="http://www.nasdaq.com/dynamic_includes/marketstatus.js"></script>
+<script src="http://www.nasdaq.com/aspx/marketstatus.aspx"></script>
+<script type="text/javascript" src="//ox-d.nasdaq.servedbyopenx.com/w/1.0/jstag?nc=3244-NASDAQ"></script>
+<script src="http://www.nasdaq.com/includes/jquery.min.js"></script>
+<script src="http://www.nasdaq.com/includes/global.min-1162015v2.js"></script>
+
+<!-- the dynamic css container -->
+<style type="text/css" title="dynamic"></style>
+<script type="text/javascript">
+//<![CDATA[
+updateSiteTheme();
+nasdaqIndexRow.init("NasdaqDjiaspx");
+//]]>
+</script>
+<!--********************************* END includes/global-references.inc **************************-->
+
+
+<!-- START page level style/script -->
+
+<style type="text/css">
+</style>
+
+<script type="text/javascript">
+var mobileModule = createMobileModule("mobileEarningsaccess","http://m.nasdaq.com/earnings/earnings-calendar.aspx?date=2015-Oct-23");
+mobileModule.checkFullSiteAccess();
+
+function handleSelectedSymbol(symbol)
+{
+    if(symbol.length<15)
+        document.location.href = "http://www.nasdaq.com/earnings/report/"+symbol.toLowerCase().replace("/","-");
+}
+
+function sb_onsetup()//called when box is first added to page
+{
+    document.getElementById("SymbolSearch1_txtSymbol").style.color = "#888";
+    document.getElementById("SymbolSearch1_txtSymbol").style.fontSize = "15px";
+    document.getElementById("SymbolSearch1_txtSymbol").value = "Enter symbol for earnings date";    
+}
+
+function sb_onhandlefocus()//called when user clicks the box
+{
+    var ele = document.getElementById("SymbolSearch1_txtSymbol");
+    txt = ele.value;
+    if(txt == "Enter symbol for earnings date")
+    {
+        ele.value = "";
+        ele.style.color = "#000";
+    }
+}
+
+function initialize() {
+    updateTabs('tab1LG', '_confirmed');
+}
+var currentTabId = "";
+var currentContent = "";
+
+function toggle(newTabId, newContentId)
+{
+    if(currentTabId != newTabId)
+    {
+        updateTabs(newTabId, newContentId);
+    }
+}
+
+function updateTabs(newTabId, newContentId)
+{
+    if(currentTabId!='')
+    {
+        var ele = document.getElementById(currentTabId);
+        ele.className = "tab-header-a";
+        ele = document.getElementById(currentContent);
+        ele.style.display = "none";
+    }
+
+    ele = document.getElementById(newTabId);
+    ele.className = "tab-header-a-mo on";
+    ele = document.getElementById(newContentId);
+    ele.style.display = "block";
+
+    currentTabId = newTabId;
+    currentContent = newContentId;
+}
+</script>
+
+<style type="text/css">
+    #two_column_main_content_lreportweek {
+        *margin-bottom: 20px;
+    }
+    #two_column_main_content_lreportweek,
+    #two_column_main_content_lreportlink1 {
+        float: right;
+    }
+    #two_column_main_content_lreportweek a,
+    #two_column_main_content_lreportlink1 a,
+    #two_column_main_content_lreportweek span,
+    #two_column_main_content_lreportlink1 span {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: bold;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        padding: 4px;
+        text-decoration: none;
+            width: auto;
+    }
+    #two_column_main_content_lreportweek a, 
+    #two_column_main_content_lreportlink1 a  {
+        color: #00BCE4;
+    }  
+    #two_column_main_content_lreportweek a:hover, 
+    #two_column_main_content_lreportlink1 a:hover,
+    #two_column_main_content_lreportweek span,
+    #two_column_main_content_lreportlink1 span {
+        background: #00BCE4;
+        color: #ffffff;
+        transition: .2s;
+        -webkit-transition: .2s;
+    }
+    .modalComment, .yui3-aclist, autoCompleteList {
+        width: 210px;
+    }
+</style>
+
+<!-- END page level style/script -->
+
+
+<script type="text/javascript">
+    var server_time = new Date(1446896045973);
+</script>
+<style type="text/css">
+#container.wrap {background-color:#ffffff}
+</style>
+</head>
+
+<body id="body">
+
+<script src="http://www.nasdaq.com/includes/advertisement.js"></script>
+<script type="text/javascript">checkABDetected();</script>
+
+<!--[if IE 8]> <script src="http://www.nasdaq.com/includes/respond.js"></script> <![endif]-->
+<!--[if IE 7]> <script src="http://www.nasdaq.com/includes/zindex.js"></script> <![endif]-->
+
+    
+
+    <!--*************************************** BEGIN includes/global-masthead.inc ****************************************-->
+
+<header id="global_header">
+    <!--// Begin Hot Topics -->
+    <div id="hot_topics">
+        <span>Hot Topics:</span>
+        <a href="http://www.nasdaq.com/etfs" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:ETFs')">ETFs</a> <span>|</span>
+        <a href="http://www.nasdaq.com/personal-finance/retirement.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:Retirement')">Retirement</a> <span>|</span>
+        <a href="http://www.nasdaq.com/investing/forex/" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:Currencies')">Currencies</a> <span>|</span>
+        <a href="http://www.nasdaq.com/investing/online-brokers/" onclick="triggerAsyncOmnitureClickEvent('nav:hot-topics:Broker')">Online Broker Center</a>
+    </div>
+    <!--// End Hot Topics -->
+    <nav id="global_nav">
+        <div id="header_wrap">
+            <div class="logo">
+                <a href="http://www.nasdaq.com/" target="_self" onclick="triggerAsyncOmnitureClickEvent('nav:links:homepage')">
+                    <span></span>
+                </a>
+                <div id="header_logobg">
+                    <div></div>
+                </div>
+            </div>
+            <div id="nasdaq_login">
+                <div id="nWelcome" class="floatR">
+                &nbsp;
+                </div>
+                <!--// Begin notifier placeholder -->
+                <div id="global_notifier" class="floatR">
+                </div>
+                <!--// End notifier placeholder -->
+            </div>
+        </div>
+        <div class="clearB"></div>
+        <ul class="js-nav-toggle primary" id="js-nav-toggle">
+            <li id="site-nav-company">
+                <a href="http://business.nasdaq.com" data-click-event="nav:company:company-hub" onclick="triggerAsyncOmnitureClickEvent('nav:company:company-hub')">Our Company</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="company-drop">
+                            <li>
+                                <a href="http://business.nasdaq.com/tech" onclick="triggerAsyncOmnitureClickEvent('nav:company:tech')">
+                                    <span><strong>Tech</strong></span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/tech" onclick="triggerAsyncOmnitureClickEvent('nav:company:tech')">
+                                    Differentiate With <br />Technology
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/trade" onclick="triggerAsyncOmnitureClickEvent('nav:company:trade')">
+                                    <span><strong>Trade</strong></span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/trade" onclick="triggerAsyncOmnitureClickEvent('nav:company:trade')">
+                                    Trade Multiple <br />Asset Classes
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/track" onclick="triggerAsyncOmnitureClickEvent('nav:company:track')">
+                                    <span><strong>Track</strong></span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/track" onclick="triggerAsyncOmnitureClickEvent('nav:company:track')">
+                                    Track the Markets
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="company-drop">
+                            <li>
+                                <a href="http://business.nasdaq.com/intel" onclick="triggerAsyncOmnitureClickEvent('nav:company:intel')">
+                                    <span><strong>Intel</strong></span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/intel" onclick="triggerAsyncOmnitureClickEvent('nav:company:intel')">
+                                    Leverage Actionable <br />Intelligence
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/list" onclick="triggerAsyncOmnitureClickEvent('nav:company:list')">
+                                    <span><strong>List</strong></span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/list" onclick="triggerAsyncOmnitureClickEvent('nav:company:list')">
+                                    Access Capital
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="https://listingcenter.nasdaq.com/home.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:company:list')">
+                                    Listing Center
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://business.nasdaq.com/discover" onclick="triggerAsyncOmnitureClickEvent('nav:company:discover')">
+                                    <span><strong>Discover</strong></span>
+                                </a>
+                                <div class="clearB"></div>
+                                <a href="http://business.nasdaq.com/discover" onclick="triggerAsyncOmnitureClickEvent('nav:company:discover')">
+                                    Discover Nasdaq
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="nav-company-border"></div>
+                    <!--// START includes/main-nav-company-featured.inc -->
+<table>
+  <tbody>
+    <tr>
+      <td valign="top" width="100" class="paddingT5px">
+        <a href="http://www.nasdaqomx.com/aboutus/marketinsite/readpost?contentId=58738&title=2015+CNBC+Disruptor+50" onclick="triggerAsyncOmnitureClickEvent('nav:company:featured')">
+          <img src="http://www.nasdaq.com/images/cnbcdisruptor_100x100v2.png" width="100" height="100" alt="corporate featured" />
+        </a>
+      </td>
+      <td valign="top" class="floatL paddingL15px marginL5px">
+        <a href="http://www.nasdaqomx.com/aboutus/marketinsite/readpost?contentId=58738&title=2015+CNBC+Disruptor+50" onclick="triggerAsyncOmnitureClickEvent('nav:company:featured')">
+          <span>
+            <strong>2015 CNBC Disruptor 50</strong>
+          </span>
+        </a>
+        <div class="clearB"></div>
+        <a href="http://www.nasdaqomx.com/aboutus/marketinsite/readpost?contentId=58738&title=2015+CNBC+Disruptor+50" onclick="triggerAsyncOmnitureClickEvent('nav:company:featured')">
+          Learn more about the CNBC</br> Disruptor 50
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<!--// END includes/main-nav-company-featured.inc -->
+                    <div id="nav-company-bg"></div>
+                </div>
+            </li>
+            <li id="site-nav-quotes">
+                <a href="http://www.nasdaq.com/quotes" data-click-event="nav:quotes:quotes-hub" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:quotes-hub')">Quotes</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="first-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:quotes-hub')">
+                                  <i class="fa fa-suitcase" style="margin-left:-18px;"></i>
+                                  <span>Stock Quotes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/aspx/flashquotes.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:flash-quotes')">Flash Quotes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-quotes.aspx" onclick="handleNQClick(this,'nav:quotes:summary-quotes')">Summary Quotes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/real-time.aspx" onclick="handleNQClick(this,'nav:quotes:real-time')">Real Time Quotes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/extended-trading/" onclick="handleNQClick(this,'nav:quotes:extended-trading')">Extended Trading</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/options/" onclick="handleNQClick(this,'nav:quotes:options')">Options Trading Center</a>
+                            </li>
+                        </ul>
+                        <ul class="first-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-charts.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:charts')">
+                                  <i class="fa fa-bar-chart-o" style="margin-left:-18px;"></i>
+                                  <span>Charts</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-charts.aspx" onclick="handleNQClick(this,'nav:quotes:basic-charts')">Basic Charts</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/interactive-charts.aspx" onclick="handleNQClick(this,'nav:quotes:interactive-charts')">Interactive Charts</a>
+                            </li>
+                        </ul>
+                        <ul class="first-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-news.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:company-news')">
+                                  <i class="fa fa-newspaper-o" style="margin-left:-18px;"></i>
+                                  <span>Company News</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-news.aspx" onclick="handleNQClick(this,'nav:quotes:news')">News</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/press-releases.aspx" onclick="handleNQClick(this,'nav:quotes:press-releases')">Press Releases</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="first-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-reports.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:company-profile')">
+                                  <i class="fa fa-list" style="margin-left:-18px;"></i>
+                                  <span>Company Profile</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-reports.aspx" onclick="handleNQClick(this,'nav:quotes:stock-reports')">Stock Reports</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/sec-filings.aspx" onclick="handleNQClick(this,'nav:quotes:sec-filings')">SEC Filings</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/short-interest.aspx" onclick="handleNQClick(this,'nav:quotes:short-interest')">Short Interest</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/business-competitors.aspx" onclick="handleNQClick(this,'nav:quotes:competitors')">Competitors</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/ownership.aspx" onclick="handleNQClick(this,'nav:quotes:ownership')">Ownership</a>
+                            </li>
+                        </ul>
+                        <ul class="first-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-financials.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:fundamentals')">
+                                  <i class="fa fa-money" style="margin-left:-18px;"></i>
+                                  <span>Fundamentals</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-financials.aspx" onclick="handleNQClick(this,'nav:quotes:financials')">Financials</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/revenue-eps.aspx" onclick="handleNQClick(this,'nav:quotes:revenue-eps')">Revenue EPS</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/analyst-research.aspx" onclick="handleNQClick(this,'nav:quotes:analyst-research')">Analyst Research</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/stock-guru-analysis.aspx" onclick="handleNQClick(this,'nav:quotes:guru-analysis')">Guru Analysis</a>
+                            </li>
+                        </ul>
+                                    <ul class="first-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/screening/company-list.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:quotes:company-list')">
+                                                    <span>Company List</span>
+                                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-markets">
+                <a href="http://www.nasdaq.com/markets/" data-click-event="nav:markets:markets-hub" onclick="triggerAsyncOmnitureClickEvent('nav:markets:markets-hub')">Markets</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/extended-trading/" onclick="triggerAsyncOmnitureClickEvent('nav:markets:extended')">
+                                    <span>Extended Hours</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/extended-trading/premarket-mostactive.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:pre-market')">Pre-Market Activity</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/extended-trading/afterhours-mostactive.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:after-hours')">After Hours Activity</a>
+                            </li>
+                        </ul>
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/aspx/mostactive.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:stocks')">
+                                    <span>Stocks</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/aspx/mostactive.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:most-active')">Most Active</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/unusual-volume.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:unusual-volume')">Unusual Volume</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/aspx/52-week-high-low.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:52-week-high-low')">52 Week High/Low</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/upcoming-splits.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:upcoming-splits')">Upcoming Splits</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/sec-filings-n.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:sec-filings')">New SEC Filings</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/ipos" onclick="triggerAsyncOmnitureClickEvent('nav:markets:ipo-summary')">IPO Summary</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/earnings/earnings-calendar.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:earnings-calendar')">Earnings Calendar</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/dividend-stocks/" onclick="triggerAsyncOmnitureClickEvent('nav:markets:dividend-stocks')">Dividend Stocks</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/commodities.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:commodities')">
+                                    <span>Commodities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/etfs" onclick="triggerAsyncOmnitureClickEvent('nav:markets:etfs')">
+                                    <span>ETFs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/barchart-sectors.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:sector-analysis')">
+                                    <span>Sector Analysis</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/global-markets.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:global-markets')">
+                                    <span>Global Markets</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/earnings/daily-analyst-recommendations.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:analyst-activity')">
+                                    <span>Analyst Activity</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/earnings/daily-analyst-recommendations.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:upgrades-downgrades')">Upgrades/Downgrades</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/earnings/analyst-forecast-change.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:analyst-forecast-change')">Forecast Changes</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/earnings/daily-earnings-surprise.aspx" class="a-mega" onclick="triggerAsyncOmnitureClickEvent('nav:markets:daily-earnings-surprise')">Earning Surprises</a>
+                            </li>
+                        </ul>
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/indices/major-indices.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:indices')">
+                                    <span>Indices</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/indices/major-indices.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:market-indices')">Market Indices</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/indices/sector-indices.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:markets:sector-indices')">Sector Indices</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/index-highs" onclick="triggerAsyncOmnitureClickEvent('nav:markets:statistical-milestones')">Statistical Milestones</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-news">
+                <a href="http://www.nasdaq.com/news/" data-click-event="nav:news:news-hub" onclick="triggerAsyncOmnitureClickEvent('nav:news:news-hub')">News</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/quotes/company-news.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:company-news')">
+                                    <span>Company News</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/news/market-headlines.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:market-headlines')">
+                                    <span>Market Headlines</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/marketstream/" onclick="triggerAsyncOmnitureClickEvent('nav:news:marketstream')">
+                                    <span>Market Stream</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/us-economic-calendar.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:economic-calendar')">
+                                    <span>Economic Calendar</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/video/video.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:news:video')">
+                                    <span>Business Video</span>
+                                </a>
+                            </li>
+                            <li>
+                              <a href="http://www.nasdaq.com/tech/" onclick="triggerAsyncOmnitureClickEvent('nav:news:technology')">
+                                <span>Technology News</span>
+                              </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearB"></div>
+                    <div class="paddingL10px paddingR10px paddingB10px">
+                        <!-- START includes/main-navigation-featured-video.inc -->
+
+<div class="marginB5px">
+    <h4>Featured Article</h4>
+</div>
+<table>
+    <tr>
+        <td valign="top" width="100">
+            <a href="http://www.nasdaq.com/article/3-reasons-to-buy-general-electric-that-have-nothing-to-do-with-its-dividend-cm539710" class="floatL paddingT5px">
+                <img src="http://www.nasdaq.com/images/news/1106ge.jpg" width="100" height="100" alt="news featured image" />
+            </a>
+        </td>
+        <td valign="top" class="floatL paddingL15px">
+            <a href="http://www.nasdaq.com/article/3-reasons-to-buy-general-electric-that-have-nothing-to-do-with-its-dividend-cm539710" class="fontS14px">
+            3 Reasons to Buy General Electric
+            </a>
+            <br />
+            <p>None of them has anything to do with its dividend</p>
+        </td>
+    </tr>
+</table>
+        
+<!-- END includes/main-navigation-featured-video.inc -->
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-investing">
+                <a href="http://www.nasdaq.com/investing/" data-click-event="nav:investing:investing-hub" onclick="triggerAsyncOmnitureClickEvent('nav:investing:investing-hub')">Investing</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/how-to-invest.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:how-to-invest')">
+                                    <span>How to Invest</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/how-to-invest.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:investing-basics')">Investing Basics</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/online-brokers/" onclick="triggerAsyncOmnitureClickEvent('nav:investing:online-brokers')">Broker Comparison</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/glossary/" onclick="triggerAsyncOmnitureClickEvent('nav:investing:glossary')">Glossary</a>
+                            </li>
+                        </ul>
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/stocks.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:stocks')">
+                                    <span>Stocks</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/mutual-funds.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:mutual-funds')">
+                                    <span>Mutual Funds</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/tools.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:tools')">
+                                    <span>Investing Tools</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/reference/stock-screener.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:stock-screener')">Stock Screener</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/guru/guru-stock-screener.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:investing:guru-screener')">Guru Screener</a>
+                            </li>
+                            <li>
+                                <a>&nbsp;</a>
+                            </li>
+                        </ul>
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/advisor/" onclick="triggerAsyncOmnitureClickEvent('nav:investing:advisor')">
+                                    <span>
+                                        Financial Advisor <br />Center
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-advanced">
+                <a href="http://www.nasdaq.com/investing/advanced-investing.aspx" data-click-event="nav:advanced:advanced-investing" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:advanced-investing')">Advanced Investing</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/etfs" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:etfs')">
+                                    <span>ETFs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/forex/" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:forex')">
+                                    <span>Forex</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/forex/forex-brokers.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:forex:brokercomparison')">Forex Broker Comparison</a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/commodities.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:commodities')">
+                                    <span>Commodities</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/investing/bonds.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:bonds')">
+                                    <span>Bonds</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/wealth-management/" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:wealth-management')">
+                                    <span>Wealth Management</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/options/" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:options')">
+                                    <span>Options</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/ipos" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:ipo-summary')">
+                                    <span>IPO Summary</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/markets/barchart-sectors.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:advanced:sector-analysis')">
+                                    <span>Sector Analysis</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-pf">
+                <a href="http://www.nasdaq.com/personal-finance/" data-click-event="nav:personal-finance:pf-hub" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:pf-hub')">Personal Finance</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/retirement.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:retirement')">
+                                    <span>Retirement</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/real-estate.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:real-estate')">
+                                    <span>Real Estate</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/banking.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:banking')">
+                                    <span>Banking</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/franchise.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:franchise')">
+                                    <span>Franchises</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/taxes.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:taxes')">
+                                    <span>Taxes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/investments.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:investments')">
+                                    <span>Investments</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/small-business.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:small-business')">
+                                    <span>Small Business</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.nasdaq.com/personal-finance/insurance.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:insurance')">
+                                    <span>Insurance</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearB"></div>
+                    <div class="paddingL10px paddingR10px paddingB10px">
+                        <!--// START includes/main-navigation-featured-article.inc -->
+
+<div class="marginB5px">
+    <h4>Featured Article</h4>
+</div>
+<table>
+    <tr>
+<!--
+        <td valign="top" width="355">
+            <a href="https://mh214.isrefer.com/go/NASW/NDQCA/?utm_source=nasdaq-promotion-web&utm_medium=nasdaq-618sandy-website&utm_campaign=nasdaq-618sandy-website" target="_blank" rel="nofollow" class="floatL paddingT5px" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:featured-article')">
+                <img src="http://www.nasdaq.com/images/Webinar_Betner355x100_7202015.jpg" width="355" height="100" border="0" />
+            </a>
+        </td>
+-->
+
+        <td valign="top" width="100">
+            <a href="http://www.nasdaq.com/article/7-hidden-tax-breaks-for-retirees-cm539807" class="floatL paddingT5px" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:featured-article')">
+                <img src="http://www.nasdaq.com/images/news/1106retire.jpg" width="100" height="100" border="0" />
+            </a>
+        </td>
+        <td valign="top" class="floatL paddingL15px">
+            <a href="http://www.nasdaq.com/article/7-hidden-tax-breaks-for-retirees-cm539807" class="fontS14px" onclick="triggerAsyncOmnitureClickEvent('nav:personal-finance:featured-article')">
+            7 Hidden Tax Breaks for Retirees
+            </a>
+            <br />
+            <p>Managing your taxes in retirement can be quite an undertaking</p>
+        </td>
+
+    </tr>
+</table>
+        
+<!--// END includes/main-navigation-featured-article.inc -->
+
+                    </div>
+                </div>
+            </li>
+            <li id="site-nav-nasdaq">
+                <a href="http://community.nasdaq.com/" data-click-event="nav:my-nasdaq:my-nasdaq-hub" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:my-nasdaq-hub')">My Nasdaq</a>
+                <div class="global_dropdown">
+                    <div class="floatL half">
+                        <ul class="secondary-drop">
+                            <li>
+                                <a href="http://community.nasdaq.com/MyPortfolio.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:my-portfolio')">
+                                    <span>My Portfolio</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/MyRatings.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:stock-ratings')">
+                                    <span>Stock Ratings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/community-settings.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:settings')">
+                                    <span>Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/community-settings.aspx?tab=account" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:account')">My Account</a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/community-settings.aspx?tab=profile" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:profile')">Edit Profile</a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/manage-connections.aspx" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:connnections')">Connnections</a>
+                            </li>
+                            <li>
+                                <a href="http://community.nasdaq.com/community-settings.aspx?tab=photo" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:photo')">Profile Photo</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floatR half">
+                        <ul id="communitynav" class="secondary-drop">
+                            <!-- content gets set dynamically -->
+                            <li class="profile">
+                                <p>Join the NASDAQ Community today and get free, instant access to portfolios, stock ratings, real-time alerts, and more!</p>
+                                <ul>
+                                    <li>
+                                        <a href="http://community.nasdaq.com/" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:register')">Join Today</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="floatL">
+                                <div class="marginT10px marginB5px">
+                                    <h4>Already a member?</h4>
+                                </div>
+                                <a href="http://community.nasdaq.com/login.aspx" class="blue-button" onclick="triggerAsyncOmnitureClickEvent('nav:my-nasdaq:login')">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav><!--//End global_nav-->
+    <script>initNav();</script>
+    <div class="global_search" id="global_search">
+        <div class="wrapper">
+            <div class="ad-unit120">
+                <script type="text/javascript" language="javascript">
+                    makeAd('2','120x60','bookend_left',is_dartZone,'','');
+                </script>
+            </div>
+            <!--//End 120x60 Ad Unit -->
+            <form method="post" action="/" id="stock-search" class="stock-search" onsubmit="return false;">
+                <label for="stock-search-text">
+                    <input type="text" name="stock-search-text" id="stock-search-text" class="ajax-search" placeholder="Enter symbol, name or keyword" />
+                    <button type="submit" id="stock-search-submit">Search</button>
+                </label>
+                <a href="#stock-searches" title="Configure your experience" class="lightbox-call">
+                    <span aria-hidden="true" data-icon="g" id="search-preferences" class="search-preferences icon"></span>
+                </a>
+            </form>
+            <script type="text/javascript">
+                if(!isIEBrowser())
+                {
+                    $(function(){
+                        $('#stock-search-text').focus();
+                    });
+                }
+                Nasdaq_Quotesearch.init();
+            </script>
+            <div class="ad-unit120">
+                <script type="text/javascript" language="javascript">
+                    makeAd('2','120x60',is_dartSite,is_dartZone,'','');
+                </script>
+            </div>
+            <!--//End 120x60 Ad Unit -->
+        </div>
+    </div><!--//End global_search-->
+    <div id="global_banner" class="wrapper">
+        <script type="text/javascript" language="JavaScript">
+            if (typeof makeLeaderboardAd != 'undefined') {
+            makeLeaderboardAd();
+            }
+            else {
+            makeAd('','728x90',is_dartSite,is_dartZone,'','');
+            }
+        </script>
+    </div><!--//End global_banner-->
+</header><!--//End global_header-->
+
+<!--*************************************** END includes/global-masthead.inc ******************************************-->
+
+
+<script>
+displayLoginStatus(false, null, null, null, "http://community.nasdaq.com");
+</script>
+
+
+    
+    <div id="container" class="wrap cf">
+        <!--
+        <div class="highlight">
+            <center>
+                <script src="http://www.nasdaq.com/aspx/indexrowhtml.aspx?indexname=NASDAQDJIASPXWITHOUTIMAGE"></script>
+            </center>
+        </div>
+        -->
+
+        <div class="breadcrumb-div-2-column">
+            <span id="breadcrumb-text" class="breadcrumb-text">
+                
+    <a href="http://www.nasdaq.com/">Home</a> &gt; 
+    <a href="http://www.nasdaq.com/markets/">Market Activity</a> &gt; 
+    <b>Earnings Calendar</b><!--BREADCRUMB-->
+
+            </span>
+        </div>  
+
+        
+        <script>defineABHC('start');</script>
+        
+
+<div id="content" class="three-hundred-wide-right-rail">
+    
+    <div id="left-column-div">
+
+        <h1>Earnings Calendar</h1>
+
+        <div id="Div1">
+            <h2>Earnings Announcements for October 23, 2015</h2>
+        </div>
+
+        <div class="floatL">
+            <h4>Company Search:</h4>
+        </div>
+        <div class="floatL marginL5px">
+            <!-- search box -->
+            <!--***************************** begin includes/RTQuotebox.inc**********************************-->
+
+<script src="http://www.nasdaq.com/includes/yui-min.js"></script>
+
+<style>
+.yui3-aclist-content {font-size: 14px;}
+.yui3-aclist-item:hover {background-color:#cbeef4;}
+.yui3-skin-sam .yui3-aclist-item-active {background-color:#cbeef4;color:#000000;}
+</style>
+
+<script>
+
+//functions which need to be implemented for the caller page:
+//handleSelectedSymbol(symbol) - selection is chosen
+//a function for a button which calls validate2() or setInput() for manually validating the symbol if dropdown isn't used
+//optional: 
+//sb_onsetup() - called right after input box is added to the page
+//sb_onhandlekeydown(event) - called when user presses a key in the box, see sb_handlekeydown below 
+//sb_onhandlefocus() - called when user first selects the box
+//sb_onhandleblur() - called when focus switches away from box
+//id for input box is: SymbolSearch1_txtSymbol
+
+var xmlhttp = null;
+var inputQuery = null;
+var validating = false;
+
+function setInput()
+{
+    if(!validating)
+    {
+        if (document.getElementById("SymbolSearch1_txtSymbol").value == '')
+        { 
+            alert('Please enter a stock symbol'); 
+        }
+        else
+        {
+            inputQuery = document.getElementById("SymbolSearch1_txtSymbol").value;
+            inputQuery = inputQuery.split(':')[0].replace(/^\s*/, '').replace(/\s*$/, '');
+            validateInput();
+        }
+    }
+}
+
+function validate2()
+{
+    setInput();
+}
+
+function validateInput()
+{
+    if(inputQuery == null)
+    { 
+        alert('Please enter a stock symbol'); 
+        return false; 
+    }
+    validating = true;
+
+    if(window.XMLHttpRequest)
+    {
+        xmlhttp = new XMLHttpRequest();
+    }
+    else if(window.ActiveXObject)
+    {
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+
+    if(xmlhttp == null)
+    {
+        validate();//use the old iframe method instead
+    }
+    else
+    {
+        var url = '/aspx/ValidateSymbol.aspx?mode=stock';
+        url += '&selected=' + inputQuery;
+
+        xmlhttp.onreadystatechange = readResults2;
+        xmlhttp.open("GET",url,true);
+        xmlhttp.send(null);
+    }
+}
+
+function readResults2()
+{
+    if(xmlhttp.readyState == 4 || xmlhttp.readyState == "complete")
+    {
+        var symbol = inputQuery;
+
+        if(xmlhttp.responseText != "")
+        {
+            var validated = false;
+            
+            var result = xmlhttp.responseText.split('|');
+
+            result[4] = result[4].replace(/<\/body>/i,"").replace(/<\/html>/i,"");
+            
+            if(result[1].toLowerCase()=='true')
+            {
+                validated = true;
+            }
+            else if(result[2].toLowerCase()=='true')
+            {
+                alert(symbol + ' is changed to ' + result[3] + ' on ' + result[4]);
+                symbol = result[3];
+                validated = true;
+            }
+            else {
+                alert(symbol + ' is Not a Valid Symbol');
+            }
+                    
+            symbol = symbol.toUpperCase();
+            if(validated)
+                handleSelectedSymbol(symbol);
+
+            inputQuery = null;
+            validating = false;
+        }       
+    }
+}
+
+
+function validate()
+{
+    url = 'http://www.nasdaq.com/aspx/ValidateSymbol.aspx?mode=stock';
+    url += '&selected=' + inputQuery;
+    document.getElementById("rtsymbollookupframe").src = url;//calls readResults()
+}
+    
+function readResults()
+{
+        var validated = false;
+        var symbol = inputQuery;
+        var result = window.frames["rtsymbollookupframe"].document.body.innerHTML.split('|');
+        if(result[1].toLowerCase()=='true'){
+                validated = true;
+        } else if(result[2].toLowerCase()=='true'){
+                alert(result[0] + ' is changed to ' + result[3] + ' on ' + result[4]);
+                symbol = result[3];
+                validated = true;
+        } else {
+                alert(result[0] + ' is Not a Valid Symbol');
+        }
+        symbol = symbol.toUpperCase();
+        if(validated)
+            handleSelectedSymbol(symbol);
+
+        inputQuery = null;
+        validating = false;
+}
+
+function selectSymbol(symbol)
+{ 
+    symbol = symbol.split(':')[0]; 
+    symbol = symbol.replace(/^\s*/, '').replace(/\s*$/, '');
+    inputQuery = symbol;
+    if(!validating)
+        validateInput();
+}
+
+function sb_setup()
+{
+    if(typeof sb_onsetup!='undefined')
+        sb_onsetup();
+
+}
+
+function sb_handlekeydown(event)
+{
+    if(event.keyCode ==13)
+    {
+        setInput()//validate the input if enter key is hit
+    }
+    else
+    {
+        if(typeof sb_onhandlekeydown!="undefined")
+            sb_onhandlekeydown(event);
+    }
+    return false;
+}
+
+function sb_handlefocus()
+{
+    if(typeof sb_onhandlefocus!="undefined")
+        sb_onhandlefocus();
+}
+
+function sb_handleblur()
+{
+    if(typeof sb_onhandleblur!="undefined")
+        sb_onhandleblur();
+
+}
+</script>
+
+
+<span id="etflookupcont"><span id="myAutoComplete" class="yui3-skin-sam">
+ <input name="SymbolSearch1$txtSymbol" type="text" maxlength="19" id="SymbolSearch1_txtSymbol" class="modalComment" onfocus="sb_handlefocus()" onblur="sb_handleblur()" onkeypress="sb_handlekeydown(event)" /></span>
+ <div id="SymbolSearch1_pnlMyContainer" class="autoCompleteList">
+  </div>
+</span>
+
+<script type="text/javascript">
+    function acSelectionHandler(result)
+    {
+        //symbol = itemNode.innerHTML; 
+        selectSymbol(result);
+    }
+    
+// Create a new YUI instance and populate it with the required modules.
+YUI().use(['datasource','autocomplete'], function (Y) {
+    // AutoComplete is available and ready for use. Add implementation
+    // code here.
+
+    var ds = new Y.DataSource.IO({source: "/symbollookupDataHandler.ashx"});
+    ds.plug({fn: Y.Plugin.DataSourceTextSchema, cfg: {
+        schema: {
+            resultDelimiter: "\n"
+        }
+    }});
+
+    var autoComp = Y.one('#SymbolSearch1_txtSymbol').plug(Y.Plugin.AutoComplete, {
+        maxResults: 10,
+        requestTemplate: '?type={query}',
+        source: ds
+    });
+
+    autoComp.ac.on('autocompleteListPlugin:select',function(e){
+        acSelectionHandler(e.result.text);
+    });
+
+    autoComp.ac.after('render', sb_setup);
+});
+</script>
+
+
+            <iframe id="rtsymbollookupframe" name="rtsymbollookupframe" frameborder="0" style="display:none;width:1px;height:1px;"></iframe>    
+    
+<!--***************************** end includes/RTQuotebox.inc**********************************-->
+
+
+
+
+            <!-- end search box -->
+        </div>
+        <div class="clearB"></div>
+        <br />
+
+        <span id="two_column_main_content_lreportweek"><a href="earnings-calendar.aspx?date=2015-Oct-12">Previous</a> <a href="earnings-calendar.aspx?date=2015-Oct-19">Oct 19</a> <a href="earnings-calendar.aspx?date=2015-Oct-20">Oct 20</a> <a href="earnings-calendar.aspx?date=2015-Oct-21">Oct 21</a> <a href="earnings-calendar.aspx?date=2015-Oct-22">Oct 22</a> <span>Oct 23</span> <a href="earnings-calendar.aspx?date=2015-Oct-26">Next</a></span>
+            
+        <div class="clearB"></div>
+            
+        <div class="tab-wrap">
+            <ul id="header-tabs">
+                <li>
+                    <a id="tab1LG" class="tab-header-a" onclick="toggle('tab1LG','_confirmed')">
+                        <span class="wide-width">Earnings Date - Confirmed by Zacks</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="tab2LG" class="tab-header-a" onclick="toggle('tab2LG','_unconfirmed')">
+                    <span class="wide-width">Earnings Date - Estimated by Zacks</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="clearB"></div>
+       
+        <div class="genTable">
+            <div id="_confirmed" >
+                <!--<div class="floatL">
+                    <h3>Earnings Date - Confirmed by Zacks</h3>
+                </div>
+                <div class="clearB"></div>
+                <br />-->
+                    
+                <div id="two_column_main_content_pnlInsider">
+                                
+                    
+                            <table class="USMN_EarningsCalendar" id="ECCompaniesTable" border="0"cellpadding="0" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        <a href="javascript:void(0);" onclick="getdata('earningtype',1)">Time</a>
+                                    </th>
+                                    <th>
+                                        Company Name (Symbol) <br /> Market Cap<br />
+                                        Sort by: <a href="javascript:void(0);" onclick="getdata('name',1)">Name</a> / <a href="javascript:void(0);" onclick="getdata('marketcap',1)">Size</a>
+                                    </th>
+                                    <th>
+                                        Reported Date
+                                    </th>
+                                    <th>
+                                        Fiscal<br />
+                                        Quarter<br />
+                                        Ending
+                                    </th>
+                                    <th>
+                                        <span id="two_column_main_content_CompanyTable_EPS">
+                                            Consensus<br />
+                                            EPS* Forecast
+                                        </span>
+                                    </th>
+                                    <th>
+                                        # of Ests
+                                    </th>
+                                    <th style="display:none">
+                                        <span id="two_column_main_content_CompanyTable_previousreportdate">
+                                            Last Year's<br />
+                                            Report Date
+                                        </span>
+                                    </th>
+                                    <th>
+                                        EPS
+                                    </th>
+                                    <th style="">
+                                        % Suprise<br />
+                                    </th>
+                                    </tr>
+                                </thead>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_0" href="http://www.nasdaq.com/earnings/report/aimc">Altra Industrial Motion Corp. (AIMC) <br/><b>Market Cap: $720.03M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.4
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.43
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>7.5</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_1" href="http://www.nasdaq.com/earnings/report/aal">American Airlines Group, Inc. (AAL) <br/><b>Market Cap: $28.74B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $2.72
+                                </td>
+                                <td>
+                                    9
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $2.77
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>1.84</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_2" href="http://www.nasdaq.com/earnings/report/abcb">Ameris Bancorp (ABCB) <br/><b>Market Cap: $1.04B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.47
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.48
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>2.13</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_3" href="http://www.nasdaq.com/earnings/report/alv">Autoliv, Inc. (ALV) <br/><b>Market Cap: $11.11B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.43
+                                </td>
+                                <td>
+                                    8
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.53
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>6.99</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_4" href="http://www.nasdaq.com/earnings/report/boch">Bank of Commerce Holdings (CA) (BOCH) <br/><b>Market Cap: $86.97M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.14
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.18
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>28.57</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_5" href="http://www.nasdaq.com/earnings/report/b">Barnes Group, Inc. (B) <br/><b>Market Cap: $2.13B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.63
+                                </td>
+                                <td>
+                                    5
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.61
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-3.17</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_6" href="http://www.nasdaq.com/earnings/report/bncn">BNC Bancorp (BNCN) <br/><b>Market Cap: $914.87M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.38
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.39
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>2.63</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_7" href="http://www.nasdaq.com/earnings/report/cog">Cabot Oil & Gas Corporation (COG) <br/><b>Market Cap: $9.37B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0
+                                </td>
+                                <td>
+                                    17
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-0.01
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_8" href="http://www.nasdaq.com/earnings/report/cbnj">Cape Bancorp, Inc. (CBNJ) <br/><b>Market Cap: $180.36M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.23
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_9" href="http://www.nasdaq.com/earnings/report/cwst">Casella Waste Systems, Inc. (CWST) <br/><b>Market Cap: $247.03M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.07
+                                </td>
+                                <td>
+                                    6
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.08
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>14.29</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_10" href="http://www.nasdaq.com/earnings/report/cfg">Citizens Financial Group, Inc. (CFG) <br/><b>Market Cap: $12.98B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.39
+                                </td>
+                                <td>
+                                    10
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.4
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>2.56</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_11" href="http://www.nasdaq.com/earnings/report/cizn">Citizens Holding Company (CIZN) <br/><b>Market Cap: $106.25M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.38
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_12" href="http://www.nasdaq.com/earnings/report/civb">Civista Bancshares, Inc.  (CIVB) <br/><b>Market Cap: $85.34M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.25
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.3
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>20</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_13" href="http://www.nasdaq.com/earnings/report/lode">Comstock Mining, Inc. (LODE) <br/><b>Market Cap: $85.09M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $-0.03
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-0.07
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-133.33</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_14" href="http://www.nasdaq.com/earnings/report/cnob">ConnectOne Bancorp, Inc. (CNOB) <br/><b>Market Cap: $550.77M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.37
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.36
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-2.7</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_15" href="http://www.nasdaq.com/earnings/report/dgicb">Donegal Group, Inc. (DGICB) <br/><b>Market Cap: $521.21M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.2
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_16" href="http://www.nasdaq.com/earnings/report/dgica">Donegal Group, Inc. (DGICA) <br/><b>Market Cap: $394.22M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.33
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.22
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-33.33</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_17" href="http://www.nasdaq.com/earnings/report/dte">DTE Energy Company (DTE) <br/><b>Market Cap: $14.9B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.22
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.4
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>14.75</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_18" href="http://www.nasdaq.com/earnings/report/evbs">Eastern Virginia Bankshares, Inc. (EVBS) <br/><b>Market Cap: $83.65M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.11
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.11
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>Met</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_19" href="http://www.nasdaq.com/earnings/report/ecf">Ellsworth Growth and Income Fund Ltd. (ECF) <br/><b>Market Cap: $109.53M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.05
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_20" href="http://www.nasdaq.com/earnings/report/eric">Ericsson (ERIC) <br/><b>Market Cap: $32.69B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.16
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.16
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>Met</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_21" href="http://www.nasdaq.com/earnings/report/fbr">Fibria Celulose S.A. (FBR) <br/><b>Market Cap: $7.55B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $-0.19
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-0.12
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>36.84</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_22" href="http://www.nasdaq.com/earnings/report/ffnm">First Federal of Northern Michigan Bancorp, Inc. (FFNM) <br/><b>Market Cap: $24.43M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.51
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_23" href="http://www.nasdaq.com/earnings/report/fnfg">First Niagara Financial Group Inc. (FNFG) <br/><b>Market Cap: $3.82B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.15
+                                </td>
+                                <td>
+                                    9
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.15
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>Met</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_24" href="http://www.nasdaq.com/earnings/report/grc">Gorman-Rupp Company (The) (GRC) <br/><b>Market Cap: $758.77M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.3
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.27
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-10</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_25" href="http://www.nasdaq.com/earnings/report/glre">Greenlight Reinsurance, Ltd. (GLRE) <br/><b>Market Cap: $803.5M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-5.98
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_26" href="http://www.nasdaq.com/earnings/report/asr">Grupo Aeroportuario del Sureste, S.A. de C.V. (ASR) <br/><b>Market Cap: $4.79B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.39
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.39
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>Met</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_27" href="http://www.nasdaq.com/earnings/report/tv">Grupo Televisa S.A. (TV) <br/><b>Market Cap: $16.95B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.29
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.69
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>137.93</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_28" href="http://www.nasdaq.com/earnings/report/ircp">IRSA Propiedades Comerciales S.A. (IRCP) <br/><b>Market Cap: $1.22B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Jun 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.48
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_29" href="http://www.nasdaq.com/earnings/report/jmp">JMP Group LLC (JMP) <br/><b>Market Cap: $131.48M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.03
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.06
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>100</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_30" href="http://www.nasdaq.com/earnings/report/kfs">Kingsway Financial Services, Inc. (KFS) <br/><b>Market Cap: $91.06M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-0.05
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_31" href="http://www.nasdaq.com/earnings/report/lea">Lear Corporation (LEA) <br/><b>Market Cap: $9.29B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $2.38
+                                </td>
+                                <td>
+                                    8
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $2.56
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>7.56</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_32" href="http://www.nasdaq.com/earnings/report/lyb">LyondellBasell Industries NV (LYB) <br/><b>Market Cap: $42.69B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $2.55
+                                </td>
+                                <td>
+                                    10
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $2.8
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>9.8</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_33" href="http://www.nasdaq.com/earnings/report/ofg">OFG Bancorp (OFG) <br/><b>Market Cap: $450.52M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.09
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.03
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-66.67</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_34" href="http://www.nasdaq.com/earnings/report/pmbc">Pacific Mercantile Bancorp (PMBC) <br/><b>Market Cap: $128.97M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.01
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-0.03
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-400</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_35" href="http://www.nasdaq.com/earnings/report/bpop">Popular, Inc. (BPOP) <br/><b>Market Cap: $3.07B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.85
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.9
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>5.88</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_36" href="http://www.nasdaq.com/earnings/report/pg">Procter & Gamble Company (The) (PG) <br/><b>Market Cap: $207.82B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.94
+                                </td>
+                                <td>
+                                    10
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.98
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>4.26</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_37" href="http://www.nasdaq.com/earnings/report/pb">Prosperity Bancshares, Inc. (PB) <br/><b>Market Cap: $3.8B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.01
+                                </td>
+                                <td>
+                                    11
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.01
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>Met</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_38" href="http://www.nasdaq.com/earnings/report/rcl">Royal Caribbean Cruises Ltd. (RCL) <br/><b>Market Cap: $21.83B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $2.7
+                                </td>
+                                <td>
+                                    9
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $2.84
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>5.19</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_39" href="http://www.nasdaq.com/earnings/report/sfe">Safeguard Scientifics, Inc. (SFE) <br/><b>Market Cap: $351.25M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $-0.69
+                                </td>
+                                <td>
+                                    3
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-0.56
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>18.84</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_40" href="http://www.nasdaq.com/earnings/report/svbi">Severn Bancorp Inc (SVBI) <br/><b>Market Cap: $55.89M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.06
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_41" href="http://www.nasdaq.com/earnings/report/shpg">Shire plc (SHPG) <br/><b>Market Cap: $43.23B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $2.87
+                                </td>
+                                <td>
+                                    8
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $3.24
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>12.89</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_42" href="http://www.nasdaq.com/earnings/report/ssb">South State Corporation (SSB) <br/><b>Market Cap: $1.93B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.09
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.12
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>2.75</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_43" href="http://www.nasdaq.com/earnings/report/stt">State Street Corporation (STT) <br/><b>Market Cap: $29.57B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.25
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.16
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-7.2</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_44" href="http://www.nasdaq.com/earnings/report/sgbk">Stonegate Bank (SGBK) <br/><b>Market Cap: $407.36M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.52
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.53
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>1.92</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_45" href="http://www.nasdaq.com/earnings/report/ten">Tenneco Inc. (TEN) <br/><b>Market Cap: $3.33B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.18
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.22
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>3.39</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_46" href="http://www.nasdaq.com/earnings/report/tri">Thomson Reuters Corp (TRI) <br/><b>Market Cap: $31.21B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $0.48
+                                </td>
+                                <td>
+                                    9
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.52
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>8.33</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_47" href="http://www.nasdaq.com/earnings/report/vfc">V.F. Corporation (VFC) <br/><b>Market Cap: $29.46B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.12
+                                </td>
+                                <td>
+                                    19
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.07
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-4.46</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_48" href="http://www.nasdaq.com/earnings/report/vtr">Ventas, Inc. (VTR) <br/><b>Market Cap: $18.04B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $1.06
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $1.09
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>2.83</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_49" href="http://www.nasdaq.com/earnings/report/wsbf">Waterstone Financial, Inc. (WSBF) <br/><b>Market Cap: $398.47M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $n/a
+                                </td>
+                                <td>
+                                    0
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $0.19
+                                </td>
+                                <td style="">
+                                    N/A
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_50" href="http://www.nasdaq.com/earnings/report/wlb">Westmoreland Coal Company (WLB) <br/><b>Market Cap: $136.55M</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $-0.63
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $-1.2
+                                </td>
+                                <td style="">
+                                    <span style='color:red'>-90.48</span>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                     
+                                </td>
+                                <td>
+                                    <a id="two_column_main_content_CompanyTable_companyname_51" href="http://www.nasdaq.com/earnings/report/whr">Whirlpool Corporation (WHR) <br/><b>Market Cap: $12.41B</b></a> 
+                                </td>
+                                <td>
+                                    10/23/2015
+                                </td>
+                                <td>
+                                    Sep 2015
+                                </td>
+                                <td>
+                                    $3.22
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td style="display:none">
+                                    n/a
+                                </td>
+                                <td>
+                                    $3.45
+                                </td>
+                                <td style="">
+                                    <span style='color:green'>7.14</span>
+                                </td>
+                            </tr>
+                        
+                            </table>
+                        
+                
+</div>
+            </div>
+
+            <div id="_unconfirmed" style="display:none">
+                <!-- <div class="floatL">
+                    <h3>Earnings Date - Estimated by Zacks</h3>
+                </div>
+                <div class="clearB"></div>
+                <br />-->
+                
+                
+                    <tr>
+                        <td colspan="7">
+                            No data available.
+                        </td>
+                    </tr>
+                    
+                <div id="two_column_main_content_Pnunconfirm">
+            
+                    
+                
+</div>
+            </div>
+        </div>
+        <br />
+        <div class="small floatL box-module-full padding5px">
+            <span class="displayIB marginB5px"><b>Key:</b></span>
+            <br>
+            <span class="displayIB marginB5px"><img class="ValignM" src="http://www.nasdaq.com/images/weather_sun.jpg">&nbsp;&nbsp;Pre-Market</span>
+            <br>
+            <span class="displayIB marginB5px"><img class="ValignM" src="http://www.nasdaq.com/images/half_moon.jpg">&nbsp;&nbsp;After Hours</span>
+            <br>
+            <span>&nbsp;&nbsp;&#8211;</span>&nbsp;&nbsp;&nbsp;Zacks has not provided the time
+        </div>
+        <div class="floatR">
+            <span id="two_column_main_content_lreportlink1"><a href="earnings-calendar.aspx?date=2015-Oct-12">Previous</a> <a href="earnings-calendar.aspx?date=2015-Oct-19">Oct 19</a> <a href="earnings-calendar.aspx?date=2015-Oct-20">Oct 20</a> <a href="earnings-calendar.aspx?date=2015-Oct-21">Oct 21</a> <a href="earnings-calendar.aspx?date=2015-Oct-22">Oct 22</a> <span>Oct 23</span> <a href="earnings-calendar.aspx?date=2015-Oct-26">Next</a></span>
+            <br />
+        </div>
+        <div class="clearB"></div>  
+        <br />      
+        <div class="TalignC">
+            <small>
+                Data as of: 11/5/2015
+                <br />
+                Companies Expected to Report the Week of October 18, 2015
+                <br /><br />
+                The companies in the list above are expected to release earnings this week.
+                <br />
+                The list is derived from an algorithm based on a company's historical reporting dates.
+            </small>
+            <br />
+            <!-- std_analystinfo_eps_msg.inc begin -->
+<small><b>Data Provider:</b> <a rel="nofollow" href="http://www.zacksdata.com">Zacks Investment Research</a></small>
+<!-- std_analystinfo_eps_msg.inc end -->
+        </div>
+            <!-- BEGIN includes/ad-550.inc
+
+<div class="clearB"></div>
+<br />
+  
+<script type="text/javascript" language="JavaScript">makeAd('4','550x75','mktsnews','article_dianomi','','');</script>
+
+END includes/ad-550.inc -->
+
+
+    </div> <!--end left-column div-->
+
+    <div id="right-column-div">
+        <script type="text/javascript"> makeAd('3', '300x250', 'mktsnews', 'earningscalendar', '', '');</script>
+        <div class="divider"></div>
+        
+<!-- start Company News and Commentary -->
+<style type="text/css">
+.list {list-style-type: none}
+ul.list img {padding-top:3px}
+.text {margin-left: 55px}
+</style>
+
+
+        
+            <h2>
+                Earnings News & Analysis
+            </h2>
+        
+        <ul class="list marginL0px marginB0px">
+    
+        <li class="paddingB15px">
+            <div class="paddingR15px floatL">
+                <a href="http://www.nasdaq.com/author/zacks" id="two_column_main_content_labsi1_rptArticles_hrefAvatar_0">
+                        <img src="http://community.nasdaq.com/common/images/zacks-small.gif" id="two_column_main_content_labsi1_rptArticles_imgAvatar_0" width="40" height="40" alt="Zacks.com" />
+                    </a>
+            </div>
+            <div class="text">
+                <a id="two_column_main_content_labsi1_rptArticles_hlArticleLink_0" class="fontS14px" href="http://www.nasdaq.com/article/will-dts-dtsi-beat-estimates-this-earnings-season-cm540320">Will DTS (DTSI) Beat Estimates This Earnings Season?</a>
+                <br/>
+                <small><span id="two_column_main_content_labsi1_rptArticles_lbArticleInfo_0">Nov 6, 2015</span></small>
+            </div>
+        </li>
+    
+        <li class="paddingB15px">
+            <div class="paddingR15px floatL">
+                <a href="http://www.nasdaq.com/author/zacks" id="two_column_main_content_labsi1_rptArticles_hrefAvatar_1">
+                        <img src="http://community.nasdaq.com/common/images/zacks-small.gif" id="two_column_main_content_labsi1_rptArticles_imgAvatar_1" width="40" height="40" alt="Zacks.com" />
+                    </a>
+            </div>
+            <div class="text">
+                <a id="two_column_main_content_labsi1_rptArticles_hlArticleLink_1" class="fontS14px" href="http://www.nasdaq.com/article/will-higher-costs-weigh-on-affiliated-managers-q3-earnings-cm540321">Will Higher Costs Weigh on Affiliated Managers Q3 Earnings?</a>
+                <br/>
+                <small><span id="two_column_main_content_labsi1_rptArticles_lbArticleInfo_1">Nov 6, 2015</span></small>
+            </div>
+        </li>
+    
+        <li class="paddingB15px">
+            <div class="paddingR15px floatL">
+                <a href="http://www.nasdaq.com/author/zacks" id="two_column_main_content_labsi1_rptArticles_hrefAvatar_2">
+                        <img src="http://community.nasdaq.com/common/images/zacks-small.gif" id="two_column_main_content_labsi1_rptArticles_imgAvatar_2" width="40" height="40" alt="Zacks.com" />
+                    </a>
+            </div>
+            <div class="text">
+                <a id="two_column_main_content_labsi1_rptArticles_hlArticleLink_2" class="fontS14px" href="http://www.nasdaq.com/article/sunedison-semiconductor-semi-whats-up-this-earnings-season-cm540322">SunEdison Semiconductor (SEMI): What's Up This Earnings Season?</a>
+                <br/>
+                <small><span id="two_column_main_content_labsi1_rptArticles_lbArticleInfo_2">Nov 6, 2015</span></small>
+            </div>
+        </li>
+    
+        <li class="paddingB15px">
+            <div class="paddingR15px floatL">
+                <a href="http://www.nasdaq.com/author/zacks" id="two_column_main_content_labsi1_rptArticles_hrefAvatar_3">
+                        <img src="http://community.nasdaq.com/common/images/zacks-small.gif" id="two_column_main_content_labsi1_rptArticles_imgAvatar_3" width="40" height="40" alt="Zacks.com" />
+                    </a>
+            </div>
+            <div class="text">
+                <a id="two_column_main_content_labsi1_rptArticles_hlArticleLink_3" class="fontS14px" href="http://www.nasdaq.com/article/can-agl-resources-gas-earnings-pull-a-surprise-in-q3-cm540324">Can AGL Resources (GAS) Earnings Pull a Surprise in Q3?</a>
+                <br/>
+                <small><span id="two_column_main_content_labsi1_rptArticles_lbArticleInfo_3">Nov 6, 2015</span></small>
+            </div>
+        </li>
+    
+        <li class="paddingB15px">
+            <div class="paddingR15px floatL">
+                <a href="http://www.nasdaq.com/author/zacks" id="two_column_main_content_labsi1_rptArticles_hrefAvatar_4">
+                        <img src="http://community.nasdaq.com/common/images/zacks-small.gif" id="two_column_main_content_labsi1_rptArticles_imgAvatar_4" width="40" height="40" alt="Zacks.com" />
+                    </a>
+            </div>
+            <div class="text">
+                <a id="two_column_main_content_labsi1_rptArticles_hlArticleLink_4" class="fontS14px" href="http://www.nasdaq.com/article/is-thompson-creek-tc-positioned-to-beat-on-q3-earnings-cm540326">Is Thompson Creek (TC) Positioned to Beat on Q3 Earnings?</a>
+                <br/>
+                <small><span id="two_column_main_content_labsi1_rptArticles_lbArticleInfo_4">Nov 6, 2015</span></small>
+            </div>
+        </li>
+    
+    </ul>
+    <div class="clearB"></div>
+    <div class="floatR view-all-anchor">
+        <a id="two_column_main_content_labsi1_rptArticles_hlViewAll" href="http://community.nasdaq.com/articles-by-category.aspx?category=earnings"><span>Read More Earnings News</span></a>
+    </div>
+    
+        <span class="floatL paddingT5px">
+            <img class="ValignM" width="16" height="16" alt="" src="/images/feed-16x16.png" />&nbsp;&nbsp;<a href="http://articlefeeds.nasdaq.com/nasdaq/categories?category=Earnings" id="two_column_main_content_labsi1_rptArticles_hlRss"><b>Subscribe</b></a>
+        </span>
+        <div class="clearB"></div>   
+    
+    
+    </div><!--end right-column-div-->
+
+</div><!--end content-->
+<!-- ************* begin includes/infolinks-ad.inc ********************** -->
+
+
+<!-- ************* end includes/infolinks-ad.inc ********************** -->
+
+        
+        <script>defineABHC('end');</script>
+      <!-- START Google Ads includes/footer_googAd.inc-->
+  
+  <div class="clearB"></div>
+  <br /><br />
+  
+  <div class="footer_googAd marginLAuto marginRAuto" style="width:728px;">
+    <script type="text/javascript" language="javascript">
+        google_ad_client = "pub-1861191755926748";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        google_ad_region= "test";//allow for more than 3 google ads
+        googleSetFooterAdSlotAndHints();//set ad slot and hints fields
+    </script>
+    <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+  </div>
+
+  <!-- END Google Ads includes/footer_googAd.inc-->
+   
+
+
+    </div><!--end wrap-->
+
+    <!-- begin includes/fixedFooter.inc-->
+<!--// begin footer -->
+<footer class="site__footer">
+  <div class="site__footer--primary">
+    <div class="wrapper">
+      <a href="http://www.nasdaq.com/" class="logo">
+        <div></div>
+      </a>
+      <div class="floatR">
+        <a href="https://www.facebook.com/NASDAQ" class="icon icon-facebook">
+          <span></span>
+        </a>
+        <a href="https://twitter.com/nasdaq" class="icon icon-twitter">
+          <span></span>
+        </a>
+        <a href="https://plus.google.com/+nasdaq" class="icon icon-google-plus">
+          <span></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="site__footer--secondary">
+    <div class="wrapper">
+      <nav class="site__footer__nav">
+        <ul>
+          <li>
+            <a href="http://www.nasdaq.com/" title="Nasdaq">
+              <strong>NASDAQ.com</strong>
+            </a>
+          </li>
+          <li>
+            <a href="http://www.nasdaq.com/quotes/company-news.aspx" title="Company News">Company News</a>
+            <span>&#47;</span>
+          </li>
+          <li>
+            <a href="http://www.nasdaq.com/services/annual-reports.aspx" title="Annual Report">Annual Report</a>
+            <span>&#47;</span>
+          </li>
+          <li>
+            <a href="http://www.nasdaq.com/help/contact-information.aspx" title="Contact">Contact</a>
+            <span>&#47;</span>
+          </li>
+          <li>
+            <a href="http://www.nasdaq.com/help/nasdaq-advertising.aspx" title="Advertise on Nasdaq.com">Advertise on Nasdaq.com</a>
+          </li>
+        </ul>
+        <!--<ul>
+                        <li><a href="http://www.nasdaqomx.com/" rel="nofollow" title="NASDAQ, Inc."><strong>NASDAQ, Inc.</strong></a></li>
+                        <li><a href="http://www.nasdaqomx.com/aboutus" rel="nofollow" title="About NASDAQ, Inc.">About NASDAQ, Inc.</a><span>&#124;</span></li>
+                        <li><a href="https://listingcenter.nasdaqomx.com/home.aspx" rel="nofollow" title="NASDAQ, Inc. Listing Center">NASDAQ, Inc. Listing Center</a><span>&#124;</span></li>
+                        <li><a href="http://www.nasdaqomx.com/technology/" rel="nofollow" title="NASDAQ, Inc. Technology">NASDAQ, Inc. Technology</a><span>&#124;</span></li>
+                        <li><a href="http://ir.nasdaqomx.com/index.cfm" rel="nofollow" title="NASDAQ, Inc. Investor Relations">NASDAQ, Inc. Investor Relations</a><span>&#124;</span></li>
+                        <li><a href="http://www.nasdaqomx.com/services/publicpolicyadvocacy/" rel="nofollow" title="Public Policy Advocacy">Public Policy Advocacy</a></li>
+                    </ul>-->
+        <ul class="lighter">
+          <li>
+            <a href="http://www.nasdaq.com/about/terms.aspx" title="Terms of Use">Terms of Use</a>
+            <span>&#47;</span>
+          </li>
+          <li>
+            <a href="http://www.nasdaq.com/sitespecific/privacy.aspx" title="Privacy Policy">Privacy Policy</a>
+            <span>&#47;</span>
+          </li>
+          <li>
+            <a href="http://www.nasdaq.com/help/sitemap.aspx" title="Sitemap">Sitemap</a>
+            <span>&#47;</span>
+          </li>
+          <li>
+            <a href="http://www.nasdaq.com/feedback/" title="General Feedback">General Feedback</a>
+            <span>&#47;</span>
+          </li>
+          <li>
+            <!--*************************OpinionLab Begin*****************-->
+            <script language="javascript" type="text/javascript" src="http://www.nasdaq.com/services/onlineopinionS3tS/oo_engine.js"></script>
+            <script language="javascript" type="text/javascript">
+              O_GoT('<span></span>Feedback');
+            </script>
+            <!--*************************OpinionLab End*****************-->
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+<!--// end footer -->
+
+<!-- begin lightbox backdrop -->
+<table class="backdrop" id="backdrop">
+  <tr>
+    <td>
+      <!-- begin lightboxness -->
+      <div class="lightbox edit-stocks" id="edit-stocks">
+        <!-- close button-->
+        <span class="close">CLOSE<span class="x">X</span></span>
+        <div class="floatL">
+          <h2>
+            <center>Edit Favorites</center>
+          </h2>
+          <!-- text -->
+          <p>Enter up to 25 symbols separated by commas or spaces in the text box below. These symbols will be available during your session for use on applicable pages.</p>
+          <!-- input box -->
+          <div class="floatL">
+            <textarea onkeypress="if(event.keyCode ==13){nasdaqIndexRow.myListGo()}else if(event.keyCode == 27){$('.close').click();}" id="myListInput" name="myListInput" cols="35" rows="3" class="fontS14px"></textarea>
+          </div>
+          <!-- right side controls -->
+          <div class="floatL marginL10px">
+            <a href="javascript:void(0)" class="lightgreen-button marginB5px TalignC" onclick="nasdaqIndexRow.myListGo();">Update</a>
+            <br />
+            <a href="javascript:void(0)" class="red-button" onclick="nasdaqIndexRow.clearMyList();">Clear List</a>
+          </div>
+        </div>
+      </div>
+      <!-- end lightboxness -->
+      <!-- begin lightboxness -->
+      <div class="lightbox stock-searches" id="stock-searches">
+        <!-- close button-->
+        <span class="close">CLOSE<span class="x">X</span></span>
+        <h2>Customize your NASDAQ.com experience</h2>
+
+        <b>Background Color Selector</b>
+        <br />
+        <span>Select the background color of your choice:</span>
+        <div class="clearB"></div>
+
+        <div id="BgSelector">
+          <div>
+            <div class="BgSelector-1">
+              <div class="floatL">
+                <input type="radio" name="themepreference" value="blackg" onclick="updateSiteTheme(this.value)">&nbsp;Black
+              </div>
+              <div class="BgSelector-color"></div>
+            </div>
+
+            <div class="clearB"></div>
+
+            <div class="BgSelector-2">
+              <div class="floatL">
+                <input type="radio" name="themepreference" value="slateg" onclick="updateSiteTheme(this.value)">&nbsp;Slate Gray
+              </div>
+              <div class="BgSelector-color"></div>
+            </div>
+          </div>
+          <div>
+            <div class="BgSelector-3">
+              <div class="floatL">
+                <input type="radio" name="themepreference" value="lightg" onclick="updateSiteTheme(this.value)">&nbsp;Light Gray
+              </div>
+              <div class="BgSelector-color"></div>
+            </div>
+
+            <div class="clearB"></div>
+
+            <div class="BgSelector-4">
+              <div class="floatL">
+                <input type="radio" name="themepreference" value="grayb" onclick="updateSiteTheme(this.value)">&nbsp;Gray Blue
+              </div>
+              <div  class="BgSelector-color"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="clearB"></div>
+
+        <hr />
+        <br />
+        <b>Quote Search</b>
+        <br />
+        <span>Select a default target page for your quote search:</span>
+        <div id="QuoteSetting">
+          <div>
+            <input type="radio" name="quotepreference" value="realtime" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+              &nbsp;Real-Time<br />
+              <input type="radio" name="quotepreference" value="afthours" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+                &nbsp;After Hours<br />
+                <input type="radio" name="quotepreference" value="premkt" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+                  &nbsp;Pre-Market<br />
+                  <input type="radio" name="quotepreference" value="compnews" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">&nbsp;News
+                        </div>
+          <div>
+            <input type="radio" name="quotepreference" value="flash" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+              &nbsp;Flash Quote<br />
+              <input type="radio" name="quotepreference" value="summary" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+                &nbsp;Summary Quote<br />
+                <input type="radio" name="quotepreference" value="dyncharts" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+                  &nbsp;Interactive Charts<br />
+                  <input type="radio" name="quotepreference" value="default" onclick="Nasdaq_Quotesearch.confirmUserPref(this.value)">
+                    &nbsp;Default Setting<br />
+                  </div>
+        </div>
+
+        <div class="clearB"></div>
+
+        <span>
+          Please note that once you make your selection, it will apply to all future visits to NASDAQ.com.
+          If, at any time, you are interested in reverting to our default settings, please select Default Setting above.
+          <br /><br />
+          If you have any questions or encounter any issues in changing your default settings, please email <a href="mailto:isfeedback@nasdaq.com?Subject=Default%20Settings%20Inquiry">isfeedback@nasdaq.com</a>.
+        </span>
+      </div>
+      <!-- end lightboxness -->
+      <!-- begin lightboxness -->
+      <div class="lightbox" id="confirm">
+        <!-- close button-->
+        <span class="close">CLOSE<span class="x">X</span></span>
+        <h4>Please confirm your selection:</h4>
+        <p>
+          You have selected to change your default setting for the Quote Search. This will now be your default target page;
+          unless you change your configuration again, or you delete your
+          cookies. <b>Are you sure you want to change your settings?</b>
+        </p>
+        <div>
+          <button class="floatL"  onclick="Nasdaq_Quotesearch.confirmHandler('defaultQuote', true)">YES</button>
+          <button class="floatR"  onclick="Nasdaq_Quotesearch.confirmHandler('defaultQuote', false)">NO</button>
+        </div>
+      </div>
+      <!-- end lightboxness -->
+    </td>
+  </tr>
+</table>
+<!-- end lightbox backdrop -->
+
+<!-- Omniture code -->
+
+<!--********************BEGIN  ../includes/omniture.inc***********************-->
+
+<!-- SiteCatalyst code version: H.1.
+Copyright 1997-2005 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript" src="http://www.nasdaq.com/includes/s_code.js?v=102510"></script>
+
+
+<script type="text/javascript" language="JavaScript">
+
+<!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script>
+
+<noscript><img
+src="http://nasdaq.122.2O7.net/b/ss/nasdaqprod/1/H.1--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.1. -->
+<!-- setSectionName() moved to js file: masthead_default.js -->
+
+
+<!--*********************End  ../includes/omniture.inc*******************************-->
+
+
+<script type="text/javascript">
+  //<![CDATA[
+setSectionName(propVar);
+//]]>
+</script>
+
+<!-- Begin Tynt-->
+<script type="text/javascript">
+  if(document.location.protocol=='http:'){
+  var Tynt=Tynt||[];Tynt.push('apOVCYiV0r35wBadbiUzgI');
+  (function(){var s=document.createElement('script');s.async="async";s.type="text/javascript";s.src='http://tcr.tynt.com/ti.js';var h=document.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})();
+  }
+</script>
+<!-- End Tynt-->
+
+<!-- tapad tracking pixel -->
+<img src='http://tapestry.tapad.com/tapestry/1?ta_partner_id=965&ta_add_audiences=["367193"]&ta_format=png' width="1px" height="1px" />
+
+
+<!-- ideamelt resources -->
+<script>
+  addScript("http://cdn.ideamelt.com/1.3/js/ideamelt.min.js",true,"initIMApps()");
+</script>
+
+<!-- DataPoint Media tracking pixel -->
+<script>
+(function() {
+var d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('script'),sc = 'https:' == document.location.protocol ? 'https://' : 'http://';
+s.type='text/javascript';
+s.async=true;
+s.src=sc+'s.dpmsrv.com/dpm_58f0744907ea8bd8e0f51e568f1536289ceb40a5.min.js';
+h.appendChild(s);
+})();
+</script>
+
+<!-- end includes/fixedFooter.inc-->
+
+
+<script type="text/javascript">
+initialize();
+
+    var rrr;
+    var baseUrl = '/earnings/earnings-calendar.aspx?date=2015-Oct-23&type=';
+    function getdata(cmdVariable, sortorder) {
+        // var sortorder;
+
+        //
+
+        if (Get_Cookie('column') != cmdVariable) {
+
+            if (cmdVariable == 'marketcap')
+                sortorder = 0;
+            else
+                sortorder = 1;
+        }
+        //else {
+        //if (Get_Cookie('sorttype') == 1)
+        //sortorder = 0;
+        //else
+        //sortorder = 1;
+        //}
+        setCookie('column', cmdVariable, 1);
+        setCookie('sorttype', sortorder, 1);
+        var submitObject = "{\"Command\":\"" + cmdVariable + "\", \"sortorder\":\"" + sortorder + "\"}";
+        $.ajax({
+            type: "POST",
+            url: baseUrl,
+            data: submitObject,
+            contentType: "application/json",
+            success: function (response) {
+                //alert(response);
+                var div = $("[id$='_confirmed']");
+                div.html(response);
+
+            }
+        });
+    };
+    function getdataest(cmdVariable, sortorder, est) {
+        // var sortorder;
+
+        //
+
+        if (Get_Cookie('column') != cmdVariable) {
+
+            if (cmdVariable == 'marketcap')
+                sortorder = 0;
+            else
+                sortorder = 1;
+        }
+        //else {
+        //if (Get_Cookie('sorttype') == 1)
+        //sortorder = 0;
+        //else
+        //sortorder = 1;
+        //}
+        setCookie('column', cmdVariable, 1);
+        setCookie('sorttype', sortorder, 1);
+        var submitObject = "{\"Command\":\"" + cmdVariable + "\", \"sortorder\":\"" + sortorder + "\", \"tabletype\":\"" + est + "\"}";
+        $.ajax({
+            type: "POST",
+            url: baseUrl,
+            data: submitObject,
+            contentType: "application/json",
+            success: function (response) {
+                //alert(response);
+                var div = $("[id$='_unconfirmed']");
+                div.html(response);
+
+            }
+        });
+    };
+    function Get_Cookie(name) {
+
+        var start = document.cookie.indexOf(name + "=");
+        var len = start + name.length + 1;
+        if ((!start) &&
+(name != document.cookie.substring(0, name.length))) {
+            return null;
+        }
+        if (start == -1) return null;
+        var end = document.cookie.indexOf(";", len);
+        if (end == -1) end = document.cookie.length;
+        return unescape(document.cookie.substring(len, end));
+    }
+
+
+    function setCookie(c_name, value, expiredays) {
+        var exdate = new Date();
+        exdate.setMinutes(exdate.getMinutes() + expiredays);
+        document.cookie = c_name + "=" + escape(value) +
+((expiredays == null) ? "" : ";expires=" + exdate.toGMTString());
+    }
+    </script>
+
+
+</body> 
+</html>
